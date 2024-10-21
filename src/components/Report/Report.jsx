@@ -23,14 +23,14 @@ export default function Report({ answers }) {
   }
 
   return (
-    <Card className="w-full max-w-4xl mx-auto shadow-lg">
-      <CardHeader className="bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+    <Card className="w-full max-w-4xl mx-auto shadow-lg bg-white">
+      <CardHeader className="bg-gradient-to-r from-purple-600 to-blue-500  text-white">
         <CardTitle className="text-3xl font-bold">Interview Report</CardTitle>
         <p className="text-sm opacity-80">Your performance analysis</p>
       </CardHeader>
       <CardContent className="p-6 space-y-8">
         <Card>
-            <CardHeader className="bg-gray-50">
+            <CardHeader className="bg-gray-100">
               <CardTitle className="text-lg">Your Scores</CardTitle>
             </CardHeader>
             <CardContent className="p-4">
@@ -46,7 +46,7 @@ export default function Report({ answers }) {
               </div>
             </CardContent>
           </Card>
-        <div className="bg-gray-50 p-4 rounded-lg shadow-inner">
+        <div className="bg-gray-100 p-4 rounded-lg shadow-inner">
           <h3 className="text-xl font-semibold mb-4">Overall Performance</h3>
           <div className="h-64">
             <ResponsiveContainer width="100%" height="100%">
@@ -63,7 +63,7 @@ export default function Report({ answers }) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {answers.map((answer, index) => (
             <Card key={index} className="overflow-hidden">
-              <CardHeader className="bg-gray-50">
+              <CardHeader className="bg-gray-100">
                 <CardTitle className="text-lg">Question {index + 1}</CardTitle>
               </CardHeader>
               <CardContent className="p-4 space-y-4">

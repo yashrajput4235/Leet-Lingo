@@ -18,7 +18,7 @@ export default function UserForm({ onSubmit }) {
   }
 
   return (
-    <Card className="w-full max-w-lg mx-auto shadow-lg">
+    <Card className="w-full max-w-lg mx-auto shadow-lg bg-gray-50">
       <CardHeader className="space-y-1">
         <CardTitle className="text-2xl font-bold text-center">Welcome to LeetLingo</CardTitle>
         <p className="text-center text-sm text-gray-600">Enter your details to start the interview</p>

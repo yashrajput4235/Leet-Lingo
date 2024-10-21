@@ -65,7 +65,7 @@ export default function Interview({ questions, onComplete }) {
   const progressPercentage = ((currentQuestionIndex + 1) / questions.length) * 100
 
   return (
-    <Card className="w-full max-w-2xl mx-auto shadow-lg">
+    <Card className="w-full max-w-2xl mx-auto shadow-lg bg-gray-50">
       <CardHeader className="bg-gradient-to-r from-blue-500 to-purple-600 text-white">
         <CardTitle className="text-2xl font-bold">Interview Session</CardTitle>
         <p className="text-sm opacity-80">Answer the questions to the best of your ability</p>

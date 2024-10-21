@@ -32,7 +32,7 @@ export default function App() {
       showNotification("Your personalized interview questions have been prepared.", "success")
     } catch (error) {
       console.error('Error fetching questions:', error)
-      showNotification("Failed to fetch interview questions. Please try again.", "error")
+      showNotification("Failed to fetch interview questions. Please try again later.", "error")
     }
   }
 
@@ -43,9 +43,9 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 p-8">
+    <div className="min-h-screen bg-gradient-to-br from-blue-500 to-purple-400 p-8">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">LeetLingo Interview Prep</h1>
+        <h1 className="text-4xl font-bold text-center mb-8 text-white">LeetLingo Interview Prep</h1>
         {stage === 'form' && <UserForm onSubmit={handleFormSubmit} />}
         {stage === 'interview' && (
           <Interview
