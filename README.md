@@ -1,3 +1,6 @@
+# Leet-Lingo
+This is an online AI Interview preparation App for Students.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
