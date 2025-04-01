@@ -29,7 +29,7 @@ export default function UserForm({ onSubmit }) {
             <Label htmlFor="name">Name</Label>
             <Input
               id="name"
-              placeholder="Ayam Altman"
+              placeholder="Yash_Aaagaz"
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               required
@@ -41,7 +41,7 @@ export default function UserForm({ onSubmit }) {
             <Input
               id="email"
               type="email"
-              placeholder="ayam@leetlingo.co"
+              placeholder="yashaagaaz@leetlingo.com"
               value={formData.email}
               onChange={(e) => setFormData({ ...formData, email: e.target.value })}
               required
